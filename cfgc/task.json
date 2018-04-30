@@ -3,7 +3,7 @@
     "name": "ChangelogFromCommits",
     "friendlyName": "Changelog from git commits",
     "description": "This task will help you to generate changelog from git commit messages.",
-    "helpMarkDown": "README.md",
+    "helpMarkDown": "../README.md",
     "category": "Utility",
     "visibility": [
         "Build",
@@ -17,7 +17,7 @@
     "version": {
         "Major": 0,
         "Minor": 1,
-        "Patch": 2
+        "Patch": 4
     },
     "instanceNameFormat": "Generate changelog",
     "groups": [

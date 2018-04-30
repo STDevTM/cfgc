@@ -47,7 +47,10 @@ class ChangelogGenerator {
     }
 
     private getChangelog(): string {
-        let args = ["-C", this.workingFolder, "log", this.fromRev + ".." + this.toRev];
+        let args = ["-C", this.workingFolder, "log"];
+        if (this.fromRev !== "") {
+            args.push(this.fromRev + ".." + this.toRev);
+        }
         if (!this.includeMerges) {
             args.push("--no-merges");
         }
@@ -66,9 +69,6 @@ class ChangelogGenerator {
 
     private getLastTag(): string {
         let res = this.execGit(["-C", this.workingFolder, "describe", "--abbrev=0", "--tags"]);
-        if (res.code !== 0) {
-            tl.error(`Could not get last tag: ${res.stderr}`);
-        }
         return res.stdout.trim();
     }
 
