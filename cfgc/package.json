@@ -1,0 +1,22 @@
+{
+  "name": "cfgc",
+  "version": "0.1.0",
+  "description": "Generate changelog from git commits task",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stdevteam/cfgc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tigran Hambardzumyan",
+  "license": "MIT",
+  "dependencies": {
+    "vsts-task-lib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.0",
+    "@types/q": "^1.5.0"
+  }
+}

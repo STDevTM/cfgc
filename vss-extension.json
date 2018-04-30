@@ -1,0 +1,42 @@
+{
+    "manifestVersion": 1,
+    "id": "stdev-cfgc-extension",
+    "name": "Changelog Generation Tools",
+    "version": "0.0.6",
+    "publisher": "STDevTeam",
+    "public": "true",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tools for generating changelog from git commits.",
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [ "release", "tag", "git", "notes", "changelog", "git log", "commit" ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/stdevteam/cfgc"
+    },
+    "icons": {
+        "default": "images/icon.png"        
+    },
+    "files": [
+        {
+            "path": "cfgc"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "cfgc",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "cfgc"
+            }
+        }
+    ]
+}
