@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "stdev-cfgc-extension",
     "name": "Changelog Generation Tools",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "publisher": "STDevTeam",
     "public": true,
     "targets": [
@@ -44,6 +44,10 @@
     "files": [
         {
             "path": "cfgc"
+        },
+        {
+            "path": "images",
+            "addressable": true
         }
     ],
     "contributions": [

@@ -4,7 +4,7 @@
 
 This VSTS/TFS marketplace task generates changelog from commit messages. This task was built inspired by [changelog_from_git_commits](https://docs.fastlane.tools/actions/changelog_from_git_commits/) action of [Fastlane](https://fastlane.tools/) tools.
 
-![cfgc options](./images/options.png)
+![cfgc options](images/options.png)
 
 ## Author
 
