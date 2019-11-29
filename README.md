@@ -6,23 +6,6 @@ This VSTS/TFS marketplace task generates changelog from commit messages. This ta
 
 ![cfgc options](./images/options.png)
 
-## Options
-
-The task has 2 options to generate changelog:
-
-* **Since last tag** - Generate changelog from git commit messages since last tag in git log,
-* **Between Revisions** - Specify range of revisions from where changelog will be generated
-  * **From revision** - Tag name or revision hash of start commit.
-  * **To revision** - Tag name or revision hash of last commit.
-
-![beetwen option](./images/between-option.png)
-
-## Customization
-
-* **Pretty** - The format applied to each commit while generating the collected value.
-* **Date format** - The date format applied to each commit while generating the collected value.
-* **Include Merges** - Whether or not to include any commits that are merges.
-
 ## Author
 
 Tigran Hambardzumyan, tigran@stdevmail.com

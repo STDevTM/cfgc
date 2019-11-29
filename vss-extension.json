@@ -15,6 +15,25 @@
         "Build and release"
     ],
     "tags": [ "release", "tag", "git", "notes", "changelog", "git log", "commit" ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "links": {
+        "support": {
+            "uri": "https://github.com/stdevteam/cfgc/issues"
+        },
+        "repository": {
+            "uri": "https://github.com/stdevteam/cfgc"
+        },
+        "issues": {
+            "uri": "https://github.com/stdevteam/cfgc/issues"
+        }
+    },
     "repository": {
         "type": "git",
         "uri": "https://github.com/stdevteam/cfgc"
