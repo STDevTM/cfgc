@@ -4,7 +4,7 @@
     "name": "Changelog Generation Tools",
     "version": "0.1.2",
     "publisher": "STDevTeam",
-    "public": "true",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
