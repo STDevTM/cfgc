@@ -6,6 +6,25 @@ This VSTS/TFS marketplace task generates changelog from commit messages. This ta
 
 ![cfgc options](images/options.png)
 
+## How to use
+
+1. Install the extension from marketplace (from [here](https://marketplace.visualstudio.com/items?itemName=STDevTeam.stdev-cfgc-extension)) ([how to install task from marketplace?](https://docs.microsoft.com/en-us/azure/devops/marketplace/install-extension?view=azure-devops&tabs=browser))
+
+2. Create new pipeline with classic editor
+
+3. Click to Add button to add task
+<img width="253" alt="image" src="https://user-images.githubusercontent.com/6923563/119020121-edccc480-b9ae-11eb-9f92-3c8a32ee9cb6.png">
+
+4. Search in the list of task to find **Changelog from git commits** and click Add button
+<img width="859" alt="image" src="https://user-images.githubusercontent.com/6923563/119020512-5ddb4a80-b9af-11eb-8f62-544f2c041713.png">
+
+5. Add you configurations
+
+6. **Important:** use output variable to get the result changeling to env variable
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/6923563/119020875-ce826700-b9af-11eb-863b-4115de8c3b05.png">
+
+7. Use `$(cfgs. CHANGELOG)` variable to use your changelog.
+
 ## Author
 
 Tigran Hambardzumyan, tigran@stdevmail.com
